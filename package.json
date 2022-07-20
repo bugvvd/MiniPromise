@@ -1,5 +1,5 @@
 {
-  "name": "promise_mini",
+  "name": "promise",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -14,5 +14,8 @@
     "@babel/preset-env": "^7.18.2",
     "babel-jest": "^28.1.1",
     "jest": "^28.1.1"
+  },
+  "dependencies": {
+    "promises-aplus-tests": "^2.1.2"
   }
 }
