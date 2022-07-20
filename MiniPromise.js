@@ -13,6 +13,8 @@ class MiniPromise {
     this.onRejectedQueue = [];
     _execute(this, executor);
   }
+  catch() {}
+  finally() {}
 
   then(onFulfilled, onRejected) {
     const promise2 = new MiniPromise((resolve, reject) => {
@@ -20,6 +22,12 @@ class MiniPromise {
     });
     return promise2;
   }
+
+  static any() {}
+  static allSettled() {}
+  static race() {}
+  static reject() {}
+  static resolve() {}
 }
 
 const _execute = (promise, executor) => {
