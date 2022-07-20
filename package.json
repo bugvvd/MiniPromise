@@ -1,19 +1,5 @@
 {
-  "name": "promise",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest --watch"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.18.5",
-    "@babel/preset-env": "^7.18.2",
-    "babel-jest": "^28.1.1",
-    "jest": "^28.1.1",
     "promises-aplus-tests": "^2.1.2"
   }
 }
